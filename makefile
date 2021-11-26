@@ -6,7 +6,7 @@ calc.o:calc.calc
 
 .PHONY:clean
 clean:
-rm -f *.o calcula
+	rm -f *.o calcula
 Install:dist
-cp -r ../dist/* /
-tar -cvf calcula.tar source: calcula.tar
+	cp -r ../dist/* /
+	tar -cvf calcula.tar source: calcula.tar
